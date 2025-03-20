@@ -1,0 +1,81 @@
+/* Styling for Edit and Cancel buttons */
+.edit-btn, .cancel-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #e68900;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+
+.update-cancel-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.confirm-btn, .cancel-edit-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.confirm-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.confirm-btn:hover {
+    background-color: #757575;
+}
+
+.cancel-edit-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.cancel-edit-btn:hover {
+    background-color: #757575;
+}
+
+.booking-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 60%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.user-bookings {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.user-bookings h4 {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,47 @@
+/*Navbar styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0769cc; 
+    padding: 15px 30px;
+    color: white;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav div {
+    display: flex;
+    gap: 20px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav div a:hover {
+    color: #ffcc00; 
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #00264d; 
+    color: white;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
