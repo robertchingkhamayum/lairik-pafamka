@@ -174,7 +174,7 @@ footer h3 {
 
 .image-gallery {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .image-gallery h3{
     font-size: 40px;
@@ -187,8 +187,8 @@ footer h3 {
 }
 
 .gallery-image {
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -352,4 +352,18 @@ footer h3 {
 
 .link-text:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gallery-image {
+        width: 400px; 
+        height: 300px;
+        max-width: 300px;
+    }
 }

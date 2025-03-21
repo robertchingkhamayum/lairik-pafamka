@@ -20,7 +20,7 @@ const LogoutNavbar = () => {
 
     return (
         <nav className="logout-navbar">
-            <h2>Lairik-Pafamka</h2>
+            <h2>Lairik Pafamka</h2>
             <button className="logout-btn" onClick={handleLogout}>Logout</button>
         </nav>
     );

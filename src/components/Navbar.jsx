@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (  
         <nav>
-            <h2 >
-                <Link to="/"> Lairik-Pafamka </Link> 
+            <h2>
+                <img className="logo" src="./Images/Logo/Lairik-pafamka_logo.png" alt="Lairik Pafamka Logo" />
+                <Link to="/"> Lairik Pafamka </Link> 
             </h2>
             <div>
                 <Link to="/"> Home </Link>

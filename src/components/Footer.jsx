@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/NavbarFooter.css"
+import "../components/NavbarFooter.css";
 
 const Footer = () => {
     return (
